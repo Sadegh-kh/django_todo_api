@@ -31,6 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # Local
+    "todos.apps.TodosConfig",
+    # 3rd party
     "rest_framework",
     "django.contrib.admin",
     "django.contrib.auth",
